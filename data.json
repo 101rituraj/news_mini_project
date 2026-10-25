@@ -1,0 +1,160 @@
+{
+    "information": {
+        "realTimeArticles": {
+            "message": "Real-time news data is only available on paid plans. Free plan has a 12-hour delay. Upgrade your plan here to remove the delay: https://gnews.io/change-plan"
+        }
+    },
+    "totalArticles": 589734,
+    "articles": [
+        {
+            "id": "351f3120c0a2c60515766a09d57932f3",
+            "title": "ISRO successfully launches Earth observation satellite EOS-05",
+            "description": "ISRO's GSLV-F17 successfully launched the EOS-05 Earth observation satellite from Satish Dhawan Space Centre amid pre-dawn rain.",
+            "content": "The Indian Space Research Organisation (ISRO), which has had a quiet year so far, is back to winning ways with the successful launch of the state-of-the-art Earth observation spacecraft, EOS-05.\nThe Geosynchronous Satellite Launch Vehicle (GSLV) on i... [2685 chars]",
+            "url": "https://www.thehindu.com/sci-tech/science/isro-gslv-f17-eos-05-satellite-rocket-launch-september-4-sriharikota-updates/article71425914.ece",
+            "image": "https://th-i.thgim.com/public/incoming/41j08j/article71426819.ece/alternates/LANDSCAPE_1200/Copy%20of%20Untitled%20Design%206.jpg",
+            "publishedAt": "2026-09-03T21:35:57Z",
+            "lang": "en",
+            "source": {
+                "id": "b186b851cfda2f4463224771573fadf2",
+                "name": "The Hindu",
+                "url": "https://www.thehindu.com"
+            }
+        },
+        {
+            "id": "17a8d872d6e80e583dee3211d2c8a4ea",
+            "title": "Google September Android Update: 5 New Features",
+            "description": "Google\u2019s September Android update adds five features across Gemini, Find Hub, Keep, and Messages, but availability depends on your Android version.",
+            "content": "Google\u2019s September Android Drop is less about a major redesign and more about solving everyday annoyances, from remembering where you left your passport to making scrolling in the passenger seat less uncomfortable.\nThe September Android Drop introduc... [4369 chars]",
+            "url": "https://www.techrepublic.com/article/news-google-september-android-update-features/",
+            "image": "https://assets.techrepublic.com/uploads/2026/09/google_android_update.jpg?f=jpeg",
+            "publishedAt": "2026-09-03T21:28:29Z",
+            "lang": "en",
+            "source": {
+                "id": "798958dcb70a3c9d0ea9ea3485cd34e9",
+                "name": "TechRepublic",
+                "url": "https://www.techrepublic.com"
+            }
+        },
+        {
+            "id": "c20a98911e3919726c7f2c69ca08665a",
+            "title": "A parasitic wasp turns caterpillars into zombie bodyguards; they spend their final hours protecting the larvae eating them alive",
+            "description": "Science News: A species of parasitic wasp has evolved one of the strangest survival strategies in the insect world, turning its caterpillar host into a living bodyg.",
+            "content": "\u200bRepresentative Image of a caterpillar guarding wasp larvae and aggressively swinging its head at approaching predators (AI-generated image)\nA species of parasitic wasp has evolved one of the strangest survival strategies in the insect world, turning... [4130 chars]",
+            "url": "https://timesofindia.indiatimes.com/science/a-parasitic-wasp-turns-caterpillars-into-zombie-bodyguards-they-spend-their-final-hours-protecting-the-larvae-eating-them-alive/articleshow/133746008.cms",
+            "image": "https://static.toiimg.com/thumb/msid-133746014,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "publishedAt": "2026-09-03T21:27:00Z",
+            "lang": "en",
+            "source": {
+                "id": "9c931d3332c3a87c89b804230892aa64",
+                "name": "timesofindia.indiatimes.com",
+                "url": "https://timesofindia.indiatimes.com"
+            }
+        },
+        {
+            "id": "157c1b12dc6efe64c691774599d130d5",
+            "title": "El Nino: A phenomenon supercharged by climate change",
+            "description": "Scientists warn the 2026-27 El Nino could become the strongest ever, exacerbating global heat, droughts and floods.",
+            "content": "Anchovies are an unlikely bellwether for a building climatic event, but their disappearance from the coast of South America is heralding one of the biggest El Ninos in living memory.\nThese small fish usually live in colossal shoals along the Pacific ... [7551 chars]",
+            "url": "https://www.aljazeera.com/features/2026/9/3/el-nino-a-phenomenon-supercharged-by-climate-change",
+            "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6a983f13bf2a-1788362515.jpg?resize=1920%2C1440",
+            "publishedAt": "2026-09-03T21:21:41Z",
+            "lang": "en",
+            "source": {
+                "id": "7530d90c9af769eda4cb548f32ed381d",
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com"
+            }
+        },
+        {
+            "id": "38d634f3e780b0448cb79c4dedde474b",
+            "title": "Don\u2019t share any sensitive tech with Pak, Rajnath asks Belgian minister; both countries ink 10 defence pacts on rockets, military hardware",
+            "description": "News News: NEW DELHI: Defence minister Rajnath Singh Thursday made it clear to visiting Belgian defence minister and trade minister Theo Francken that for Indo-B.",
+            "content": "Defence minister Rajnath Singh and Belgian defence minister, trade minister Theo Francken\nNEW DELHI: Defence minister Rajnath Singh Thursday made it clear to visiting Belgian defence minister and trade minister Theo Francken that for Indo-Belgian def... [4575 chars]",
+            "url": "https://timesofindia.indiatimes.com/defence/news/dont-share-any-sensitive-tech-with-pak-rajnath-asks-belgian-minister-both-countries-ink-10-defence-pacts-on-rockets-military-hardware/articleshow/133745968.cms",
+            "image": "https://static.toiimg.com/thumb/msid-133745975,width-1280,height-720,imgsize-1034918,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+            "publishedAt": "2026-09-03T21:03:00Z",
+            "lang": "en",
+            "source": {
+                "id": "9c931d3332c3a87c89b804230892aa64",
+                "name": "timesofindia.indiatimes.com",
+                "url": "https://timesofindia.indiatimes.com"
+            }
+        },
+        {
+            "id": "80f418a961de9883accf1e73c3a19acb",
+            "title": "Apple iPhone 18 Pro Release Date Schedule: Your Complete September Countdown",
+            "description": "In days, the new iPhones, Apple Watches and AirPods will be revealed. But there are more key dates and times in the run-up to the release date. Here are all of them.",
+            "content": "Apple will hold its biggest event of the year in Cupertino, California on Wednesday, Sept. 9. The keynote is just the first part of a series of events which will culminate with the new products including the iPhone 18 Pro going on sale. There's a lot... [2647 chars]",
+            "url": "https://sg.news.yahoo.com/apple-iphone-18-pro-release-210044881.html",
+            "image": "https://s.yimg.com/lo/mysterio/api/eb97abe31c9ce39eac6fd2b985786814a698feff00b9db7f483c68f678e908cc/lightyear_networkapi/resizefill_w959_h689%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fforbes_contributor_845%2F37215f47ba7c6325021894f554016fc7.jpg",
+            "publishedAt": "2026-09-03T21:00:44Z",
+            "lang": "en",
+            "source": {
+                "id": "d0f7288d14ec8c674636416b7d8b268b",
+                "name": "Yahoo News Singapore",
+                "url": "https://sg.news.yahoo.com"
+            }
+        },
+        {
+            "id": "8554d932f0f88b33bf02836b2d153e48",
+            "title": "Volkswagen says cutting 100,000 jobs by end of decade",
+            "description": "Volkswagen announces plans to cut 100,000 jobs by 2030, marking a historic restructuring amid economic challenges.",
+            "content": "German car giant Volkswagen said on Thursday (September 3, 2026) that management and unions had agreed to cut a further 50,000 jobs by the end of the decade, bringing total job losses to 100,000.\n\"It is essential to systematically align workforce lev... [1324 chars]",
+            "url": "https://www.thehindu.com/business/Industry/volkswagen-says-cutting-100000-jobs-by-end-of-decade/article71425762.ece",
+            "image": "https://th-i.thgim.com/public/incoming/p8accq/article71425763.ece/alternates/LANDSCAPE_1200/2026-09-03T050009Z_1061542318_RC2ZANAPQOMI_RTRMADP_3_VOLKSWAGEN-REDUNDANCIES.JPG",
+            "publishedAt": "2026-09-03T20:15:15Z",
+            "lang": "en",
+            "source": {
+                "id": "b186b851cfda2f4463224771573fadf2",
+                "name": "The Hindu",
+                "url": "https://www.thehindu.com"
+            }
+        },
+        {
+            "id": "a91062910133e999e2f4416a419030a6",
+            "title": "\u2018The Scope Of Physiotherapy Is Wide\u2019: Dr. Ayush Laxkar On Rehabilitation, Technology And Patient Care",
+            "description": "Physiotherapy has evolved significantly over the years, moving from a largely equipment-light practice to a technology-driven field that increasingly uses artificial intelligence, robotics and advanced rehabilitation tools. At the same time, changing lifestyles, prolonged sitting, sedentary work and growing incidences of lifestyle-related musculoskeletal problems have made physiotherapy relevant for people across age groups. As the...",
+            "content": "100\nPhysiotherapy has evolved significantly over the years, moving from a largely equipment-light practice to a technology-driven field that increasingly uses artificial intelligence, robotics and advanced rehabilitation tools. At the same time, chan... [10031 chars]",
+            "url": "https://www.businessremedies.com/the-scope-of-physiotherapy-is-wide-dr-ayush-laxkar-on-rehabilitation-technology-and-patient-care/",
+            "image": "https://www.businessremedies.com/wp-content/uploads/2026/09/Page-222-copy.jpg",
+            "publishedAt": "2026-09-03T20:09:45Z",
+            "lang": "en",
+            "source": {
+                "id": "aefa5835c79802cc70fd676fa0cea892",
+                "name": "Business Remedies",
+                "url": "https://www.businessremedies.com"
+            }
+        },
+        {
+            "id": "831e5e764858c764666185d951c5f576",
+            "title": "From Field Epidemiology to Hospital Wards with William Schaffner",
+            "description": "My commitment to epidemiology surprised me because it began in an unlikely fashion. I had just completed an internal medicine residency...",
+            "content": "During your early days as a CDC Epidemic Intelligence Service (EIS) officer in Rhode Island, USA, you investigated municipal outbreaks, ranging from Salmonella to seasonal flu. How did that field training shape your approach to building hospital infe... [7430 chars]",
+            "url": "https://www.emjreviews.com/microbiology-infectious-diseases/article/from-field-epidemiology-to-hospital-wards-with-william-schaffner/",
+            "image": "https://www.emjreviews.com/wp-content/uploads/2026/09/AMJ-Micro-CP-Interview-William-Schaffner-Web.jpg",
+            "publishedAt": "2026-09-03T18:57:11Z",
+            "lang": "en",
+            "source": {
+                "id": "a9f12901925fcfb02f9d57b5db396471",
+                "name": "EMJ",
+                "url": "https://www.emjreviews.com"
+            }
+        },
+        {
+            "id": "911bbaffa42cc7256eb6c97994e98867",
+            "title": "Estonian defence minister resigns over botched EU-funded deal for Ukraine arms involving Indian firm",
+            "description": "The EU made a deal for shells with Italian-registered company Datasel SRL which is owned by the Indian company Neco Defence Munitions. | World News",
+            "content": "Estonia\u2019s defence minister Hanno Pevkur resigned from government following a furore over a botched European Union-funded deal to buy artillery shells for Ukraine from a company owned by an Indian entity, which denied allegations of wrongdoing.\nPevkur... [2559 chars]",
+            "url": "https://www.hindustantimes.com/world-news/estonian-defence-minister-quits-over-botched-eu-funded-arms-deal-involving-indian-firm-101788461051543.html",
+            "image": "https://www.hindustantimes.com/ht-img/img/2026/09/04/1600x900/logo/ESTONIA-GERMANY-POLITICS-DEFENCE-27_1788486693428_fa2e0743-fc2c-48a3-bcf4-1d577a3c6556_1788486705685_0e89645b-39ea-4c98-88aa-3eb9419224ba_f49065fe-42ea-4ff7-bac2-0a87d43a3440_900f38ae-b6fd-4e05-b983-7d60fa26a1ef.jpg",
+            "publishedAt": "2026-09-03T18:52:23Z",
+            "lang": "en",
+            "source": {
+                "id": "d32e3679b6a53eca83b3406e364c0d26",
+                "name": "Hindustan Times",
+                "url": "https://www.hindustantimes.com"
+            }
+        }
+    ]
+}
