@@ -24,5 +24,11 @@ A responsive, dark-themed full-stack news web application built with **Flask**, 
 
 ## Acknowledgement
 -  **GNews API** For providing the news data endpoints.
+-  **GNews API:** https://gnews.io/
+
+-  **Render:** Used render free tier for deploying my web app
+-  **Render:** https://render.com/
+
 -  **Gemini:** For Writing Html and CSS and for other code guidance
 -  **Google, W3Schools, Youtube:** For Researching
+-  **Youtube:** https://youtube.com/playlist?list=PL7yh-TELLS1EyAye_UMnlsTGKxg8uatkM&si=QBTNOvgVqsl5OALA
