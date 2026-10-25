@@ -4,6 +4,11 @@ A responsive, dark-themed full-stack news web application built with **Flask**, 
 
 ---
 
+## My Project on Render
+- https://news-mini-project.onrender.com/
+
+---
+
 ## Features
 
 -  **Dual-Mode Navigation:** Easily switch between real-time keyword search and structured headline filtering.
@@ -31,4 +36,4 @@ A responsive, dark-themed full-stack news web application built with **Flask**, 
 
 -  **Gemini:** For Writing Html and CSS and for other code guidance
 -  **Google, W3Schools, Youtube:** For Researching
--  **Youtube:** https://youtube.com/playlist?list=PL7yh-TELLS1EyAye_UMnlsTGKxg8uatkM&si=QBTNOvgVqsl5OALA
+-  **Youtube:** Thank you to this playlist https://youtube.com/playlist?list=PL7yh-TELLS1EyAye_UMnlsTGKxg8uatkM&si=QBTNOvgVqsl5OALA
