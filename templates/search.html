@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Headlines</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+
+<body>
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="{{url_for('select_news_home')}}" class="nav-link">Select News</a>
+            <a href="{{url_for('search_news_home')}}" class="nav-link active">Search News</a>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container">
+
+        <!-- Search Form Card -->
+        <div class="card">
+            <h1 class="title">Search Headlines</h1>
+
+            <form action="{{url_for('search_news_home')}}" method="POST">
+
+                <!-- Search Input Section -->
+                <div class="form-group">
+                    <label for="search-input">Search News Headlines</label>
+                    <div class="search-input-wrapper">
+                        <input type="text" id="search-input" name="querry" placeholder="Type keywords to search news..."
+                            autocomplete="off">
+                    </div>
+                </div>
+
+                <!-- Select Country Section -->
+                <div class="form-group">
+                    <label for="country-input">Select Country</label>
+                    <input list="country-list" id="country-input" name="country" placeholder="Type or select country..."
+                        autocomplete="off">
+                    <datalist id="country-list">
+                        <option value="Argentina">
+                        <option value="Australia">
+                        <option value="Austria">
+                        <option value="Bangladesh">
+                        <option value="Belgium">
+                        <option value="Botswana">
+                        <option value="Brazil">
+                        <option value="Bulgaria">
+                        <option value="Canada">
+                        <option value="Chile">
+                        <option value="China">
+                        <option value="Colombia">
+                        <option value="Cuba">
+                        <option value="Czechia">
+                        <option value="Egypt">
+                        <option value="Estonia">
+                        <option value="Ethiopia">
+                        <option value="Finland">
+                        <option value="France">
+                        <option value="Germany">
+                        <option value="Ghana">
+                        <option value="Greece">
+                        <option value="Hongkong">
+                        <option value="Hungary">
+                        <option value="India">
+                        <option value="Indonesia">
+                        <option value="Ireland">
+                        <option value="Israel">
+                        <option value="Italy">
+                        <option value="Japan">
+                        <option value="Kenya">
+                        <option value="Latvia">
+                        <option value="Lebanon">
+                        <option value="Lithuania">
+                        <option value="Malaysia">
+                        <option value="Mexico">
+                        <option value="Morocco">
+                        <option value="Namibia">
+                        <option value="Netherland">
+                        <option value="Newzealand">
+                        <option value="Nigeria">
+                        <option value="Norway">
+                        <option value="Pakistan">
+                        <option value="Peru">
+                        <option value="Philippines">
+                        <option value="Poland">
+                        <option value="Portugal">
+                        <option value="Romania">
+                        <option value="Russia">
+                        <option value="Saudi Arabia">
+                        <option value="Senegal">
+                        <option value="Singapore">
+                        <option value="Slovakia">
+                        <option value="Slovenia">
+                        <option value="South Africa">
+                        <option value="South Korea">
+                        <option value="Spain">
+                        <option value="Sweden">
+                        <option value="Switzerland">
+                        <option value="Taiwan">
+                        <option value="Tanzania">
+                        <option value="Thailand">
+                        <option value="Turkey">
+                        <option value="Uganda">
+                        <option value="Ukraine">
+                        <option value="United Arab Emirates">
+                        <option value="United Kingdom">
+                        <option value="United States">
+                        <option value="Venezuela">
+                        <option value="Vietnam">
+                        <option value="Zimbabwe">
+                    </datalist>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="submit-btn">Search</button>
+            </form>
+        </div>
+
+        <!-- Result Container Below Search Div -->
+         <div class="result-container">
+            {% if contents is not none %}
+                {% if contents['articles'] %}
+                    {% for content in contents['articles'] %}
+                    <div class="result-card">
+                        <div class="image-box">
+                            <img src="{{content['image']}}" alt="News Image">
+                        </div>
+
+                        <div class="content-box">
+                            <div class="card-header">
+                                <!-- date -->
+                                <span class="date-badge">
+                                    {{ content['publishedAt'][:10] }}
+                                </span>
+                                <!-- link to source website -->
+                                <a href="{{content['source']['url']}}" target="_blank" class="source-badge">
+                                    {{content['source']['name']}}
+                                </a>
+                            </div>
+                            <!-- news title -->
+                            <h2>{{content['title']}}</h2>
+                            <!-- news description -->
+                            <p class="description">{{content['description']}}</p>
+                            <!-- news link -->
+                            <a href="{{content['url']}}" target="_blank" class="source-link">Read full article &rarr;</a>
+                        </div>
+                        <!-- Category Badge  -->
+                         {% if content['source'].get('country') %}
+                        <span class="category-badge">
+                            {{country.get(content['source']['country'], Global)}}   
+                        </span>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+
+                {% else %}
+                    <div class="result-card">
+                        <div class="content-box">
+                            <h2>No articles were found !</h2>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endif %}
+        </div>
+         
+
+
+    </div>
+
+</body>
+
+</html>
