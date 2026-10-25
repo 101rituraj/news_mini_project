@@ -1,0 +1,381 @@
+/* Reset and global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Dark theme background */
+body {
+    background-color: #121212;
+    color: #ffffff;
+    padding-bottom: 40px;
+}
+
+/* Sticky Navbar Styling */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #2d2d2d;
+    width: 100%;
+    padding: 12px 0;
+}
+
+.nav-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 15px;
+}
+
+/* Nav Links Styling */
+.nav-link {
+    color: #b0b0b0;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: 1px solid #3d3d3d;
+    background-color: #2a2a2a;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    border-color: #3b82f6;
+}
+
+/* Active Link State */
+.nav-link.active {
+    color: #ffffff;
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+/* Wrapper to stack Top Headlines and Results vertically */
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 30px auto 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Main Top Headlines Card */
+.card {
+    background-color: #1e1e1e;
+    padding: 35px 30px;
+    border-radius: 16px;
+    border: 1px solid #2d2d2d;
+    box-shadow: none;
+    width: 100%;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #b0b0b0;
+}
+
+
+input[list],
+input[type="date"] {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #3d3d3d;
+    border-radius: 8px;
+    outline: none;
+    color-scheme: dark;
+}
+
+input[list]::placeholder {
+    color: #777777;
+}
+
+input[list]:focus,
+input[type="date"]:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 13px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Result Section Container */
+.result-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Single Result Card */
+.result-card {
+    position: relative;
+    display: flex;
+    gap: 24px;
+    background-color: #1e1e1e;
+    border: 1px solid #2d2d2d;
+    border-radius: 12px;
+    padding: 20px;
+    padding-bottom: 50px;
+    align-items: flex-start;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.date-badge {
+    background-color: #2a2d32;
+    color: #9ca3af;
+    border: 1px solid #454c56;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    letter-spacing: 0.3px;
+}
+
+/* Fixed image container prevents resizing */
+.image-box {
+    width: 260px;
+    height: 180px;
+    flex-shrink: 0;
+    /* Prevents text from squeezing the image */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #2a2a2a;
+}
+
+/* Force every image to fill the container perfectly */
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Crops aspect ratio differences without stretching */
+    display: block;
+}
+
+/* Right Content Box */
+.content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.content-box h2 {
+    font-size: 1.35rem;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+/* Styles for primary description */
+.content-box p.description {
+    font-size: 0.95rem;
+    color: #d1d5db;
+    line-height: 1.5;
+}
+
+/* Styles for secondary content paragraph */
+.content-box p.article-content {
+    font-size: 0.90rem;
+    color: #9ca3af;
+    line-height: 1.4;
+}
+
+.source-link {
+    display: inline-block;
+    color: #3b82f6;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-top: 4px;
+    width: fit-content;
+}
+
+.source-badge {
+    background-color: #2a2d32;
+    color: #e2e8f0;
+    border: 1px solid #454c56;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.source-badge:hover {
+    background-color: #383e47;
+    border-color: #3b82f6;
+    color: #ffffff;
+}
+
+.source-link:hover {
+    text-decoration: underline;
+}
+
+.category-badge {
+    position: absolute;
+    bottom: 16px;
+    right: 20px;
+    background-color: #2a2d32;
+    color: #e2e8f0;
+    border: 1px solid #454c56;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 700px) {
+    .card {
+        padding: 20px 16px;
+    }
+
+    .result-card {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 16px;
+        padding-bottom: 55px;
+    }
+
+    .image-box img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .content-box h2 {
+        font-size: 1.2rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+/* Search Bar Styling Block */
+input[type="text"] {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #3d3d3d;
+    border-radius: 8px;
+    outline: none;
+}
+
+input[type="text"]::placeholder {
+    color: #777777;
+}
+
+input[type="text"]:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+/*  search favicon*/
+/* Search Input Wrapper with Integrated Icon */
+.search-input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+/* Add left padding to make room for the icon */
+.search-input-wrapper input[type="text"] {
+    width: 100%;
+    padding: 12px 16px 12px 42px; /* Extra left padding for search icon */
+    font-size: 0.95rem;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #3d3d3d;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Injected Search Icon using CSS background SVG */
+.search-input-wrapper::before {
+    content: "";
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23777777'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'%3E%3C/path%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: contain;
+    pointer-events: none;
+}
+
+.search-input-wrapper input[type="text"]::placeholder {
+    color: #777777;
+}
+
+.search-input-wrapper input[type="text"]:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+/* Light up the icon when the user focuses on the search bar */
+.search-input-wrapper:focus-within::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%233b82f6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'%3E%3C/path%3E%3C/svg%3E");
+}
